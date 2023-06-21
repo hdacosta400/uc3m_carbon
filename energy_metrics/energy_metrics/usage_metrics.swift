@@ -11,9 +11,10 @@ import WebKit
 
 class EnergyMetrics {
     
+    
+    var webView = WKWebView()
     func renderURL(htmlString: String) {
-        let webView1 = WKWebView()
-        webView1.loadHTMLString(htmlString, baseURL: nil)
+        webView.loadHTMLString(htmlString, baseURL: nil)
     }
     
     
