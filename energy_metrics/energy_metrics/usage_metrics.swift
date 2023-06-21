@@ -13,7 +13,7 @@ class EnergyMetrics {
     
     func renderURL(htmlString: String) {
         let webView1 = WKWebView()
-        webView1.loadHTMLString(blankHTML, baseURL: nil)
+        webView1.loadHTMLString(htmlString, baseURL: nil)
     }
     
     

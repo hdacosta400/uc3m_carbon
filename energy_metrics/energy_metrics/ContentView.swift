@@ -9,12 +9,11 @@ struct ContentView: View {
     var e: EnergyMetrics;
     var body: some View {
         VStack {
-            Text("CPU Utilization: \(e.eval(fullURL:"")) %")
             
-//            Link(destination: URL(string: "https://www.apple.com")!) {
-//                Image(systemName: "link.circle.fill")
-//                    .font(.largeTitle)
-//            }
+//            Text("blank util: \(e.eval(html:blankHTML))")
+//            Text("render util: \(e.eval(html:exampleHTML))")
+            Text("CPU Utilization: \(e.eval_render_delta(renderHTML: exampleHTML)) %")
+            
         }
     }
 }
