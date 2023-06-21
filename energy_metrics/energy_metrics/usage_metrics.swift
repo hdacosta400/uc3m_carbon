@@ -13,6 +13,7 @@ class EnergyMetrics {
     
     
     var webView = WKWebView()
+    
     func renderURL(htmlString: String) {
         webView.loadHTMLString(htmlString, baseURL: nil)
     }
@@ -23,7 +24,7 @@ class EnergyMetrics {
         var avg_utilization = 0.0
         let trials = 10
         
-        for i in 1 ... trials {
+        for i in 1 ... trials+1 {
             if (i != 1) { // skip first trial since it has high startup
                 var t = clock()
                 t = clock() - t
