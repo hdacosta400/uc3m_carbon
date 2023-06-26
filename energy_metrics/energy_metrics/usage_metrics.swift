@@ -45,7 +45,7 @@ class EnergyMetrics {
                 avg_utilization += cpu_utilization
                 renderURL(htmlString: blankHTML)
             }
-
+            
         }
         
         return (avg_utilization / Double(trials))
@@ -55,6 +55,17 @@ class EnergyMetrics {
     func eval_render_delta(renderHTML: String) -> Double {
         // need to pull renderHTML from something
         return (eval(html: renderHTML) - eval(html: blankHTML)) * ENERGY_CONSUMPTION;
+    }
+    
+    
+    func generate_energy_deltas() {
+        let ad_html_strings = getAdStrings();
+        var deltas : [Double] = []
+        for ad in ad_html_strings {
+            let energy_delta = eval_render_delta(renderHTML: ad)
+            deltas.append(energy_delta)
+        }
+        postDeltas(deltas: deltas)
     }
 
 }
