@@ -9,9 +9,7 @@ struct ContentView: View {
     var e: EnergyMetrics;
     var body: some View {
         VStack {
-//            Text("blank util: \(e.eval(html:blankHTML))")
-//            Text("render util: \(e.eval(html:exampleHTML))")
-            Text("CPU Utilization: \(e.eval_render_delta(renderHTML: exampleHTML)) %")
+            Text("CPU Power Consumption: \(e.eval_render_delta(renderHTML: exampleHTML)) W")
             
         }
     }

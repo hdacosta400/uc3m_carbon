@@ -9,10 +9,17 @@ import Foundation
 import SwiftUI
 import WebKit
 
+
+
+var ENERGY_CONSUMPTION = 7.0 // wattage consumption heuristic for iOS processors
 class EnergyMetrics {
     
     
     var webView = WKWebView()
+    
+    func resetWebView() {
+        webView.loadHTMLString(blankHTML, baseURL: nil)
+    }
     
     func renderURL(htmlString: String) {
         webView.loadHTMLString(htmlString, baseURL: nil)
@@ -36,17 +43,18 @@ class EnergyMetrics {
                 print("Elapsed time: \(-start.timeIntervalSinceNow) seconds")
                 print("Approximate CPU Utilization: \(cpu_utilization) %")
                 avg_utilization += cpu_utilization
+                renderURL(htmlString: blankHTML)
             }
 
         }
         
-        return avg_utilization / Double(trials)
+        return (avg_utilization / Double(trials))
     }
     
     
     func eval_render_delta(renderHTML: String) -> Double {
         // need to pull renderHTML from something
-        return eval(html: renderHTML) - eval(html: blankHTML);
+        return (eval(html: renderHTML) - eval(html: blankHTML)) * ENERGY_CONSUMPTION;
     }
 
 }
