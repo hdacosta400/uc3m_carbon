@@ -16,6 +16,8 @@ class EnergyMetrics {
     
     
     var webView = WKWebView()
+    var deltas: [Double] = []
+    
     
     func resetWebView() {
         webView.loadHTMLString(blankHTML, baseURL: nil)
@@ -39,13 +41,12 @@ class EnergyMetrics {
                 let start = Date()
                 renderURL(htmlString: html)
                 let cpu_utilization = (cpu_time / -start.timeIntervalSinceNow) * 100.0
-                print("The function takes \(t) ticks, which is \(cpu_time) seconds of CPU time")
-                print("Elapsed time: \(-start.timeIntervalSinceNow) seconds")
-                print("Approximate CPU Utilization: \(cpu_utilization) %")
+//                print("The function takes \(t) ticks, which is \(cpu_time) seconds of CPU time")
+//                print("Elapsed time: \(-start.timeIntervalSinceNow) seconds")
+//                print("Approximate CPU Utilization: \(cpu_utilization) %")
                 avg_utilization += cpu_utilization
                 renderURL(htmlString: blankHTML)
             }
-            
         }
         
         return (avg_utilization / Double(trials))
@@ -54,18 +55,29 @@ class EnergyMetrics {
     
     func eval_render_delta(renderHTML: String) -> Double {
         // need to pull renderHTML from something
-        return (eval(html: renderHTML) - eval(html: blankHTML)) * ENERGY_CONSUMPTION;
+        var _ = generate_energy_deltas();
+        return 0.0;
     }
     
     
-    func generate_energy_deltas() {
-        let ad_html_strings = getAdStrings();
-        var deltas : [Double] = []
-        for ad in ad_html_strings {
-            let energy_delta = eval_render_delta(renderHTML: ad)
-            deltas.append(energy_delta)
+    func generate_energy_deltas() -> Double {
+        print("getting in here")
+        
+        func completionHandler() -> Void {
+            for ad in renderedHtmls {
+                print("ad:\(ad)")
+                let energy_delta =
+                (eval(html: ad) - eval(html: blankHTML)) * ENERGY_CONSUMPTION
+                print("edelt:\(energy_delta)")
+                deltas.append(energy_delta)
+            }
+            postDeltas(deltas: deltas)
         }
-        postDeltas(deltas: deltas)
+        
+        getAdStrings(completionHandler: completionHandler);
+        return 0.0
+
+
     }
 
 }

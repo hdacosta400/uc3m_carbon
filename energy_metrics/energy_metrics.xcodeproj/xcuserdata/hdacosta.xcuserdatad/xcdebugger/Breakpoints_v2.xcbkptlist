@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F9F34976-5E97-474C-85FE-5FA0F501AB1B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getAdStrings(completionHandler:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - bf53257e51e5c14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.getAdStrings() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - ad2ca67663715fe6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "206">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "209">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "444C31DD-BDB0-4716-8030-B6805DE9DC43 - 1739fd7acbeea8a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2794995A-A43F-4AEA-85B2-EE2D1BC6FAEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getAdStrings(completionHandler:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "2794995A-A43F-4AEA-85B2-EE2D1BC6FAEF - 1739fd7acbeeafcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1055">
+               </Location>
+               <Location
+                  uuid = "2794995A-A43F-4AEA-85B2-EE2D1BC6FAEF - 1739fd7acbeeafac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1055">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB23765D-270E-4997-B80E-19C6AB54B24A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "postDeltas(deltas:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FB23765D-270E-4997-B80E-19C6AB54B24A - 57a6f59ca3e049f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1191">
+               </Location>
+               <Location
+                  uuid = "FB23765D-270E-4997-B80E-19C6AB54B24A - 57a6f59ca3e049f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "929">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "268B3BEC-FE57-4EBA-9105-58E359048F71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "postDeltas(deltas:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "268B3BEC-FE57-4EBA-9105-58E359048F71 - 57a6f59ca3e04910"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+               <Location
+                  uuid = "268B3BEC-FE57-4EBA-9105-58E359048F71 - 57a6f59ca3e04910"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1191">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F668C65-E7BD-43C2-B1F1-7E5EA701C98E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "postDeltas(deltas:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "9F668C65-E7BD-43C2-B1F1-7E5EA701C98E - 57a6f59ca3e04975"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1290">
+               </Location>
+               <Location
+                  uuid = "9F668C65-E7BD-43C2-B1F1-7E5EA701C98E - 57a6f59ca3e04937"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D8C9804-3A63-4170-A8ED-26255D59910B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "postDeltas(deltas:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6D8C9804-3A63-4170-A8ED-26255D59910B - 57a6f59ca3e048cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1325">
+               </Location>
+               <Location
+                  uuid = "6D8C9804-3A63-4170-A8ED-26255D59910B - 40bc8562a36e6bdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "6D8C9804-3A63-4170-A8ED-26255D59910B - 57a6f59ca3e04894"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.postDeltas(deltas: Swift.Array&lt;Swift.Double&gt;) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1290">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9128E2CA-9115-4A8E-A122-03613006D0ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "generate_energy_deltas()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9128E2CA-9115-4A8E-A122-03613006D0ED - 8679945c7d41915c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.EnergyMetrics.generate_energy_deltas() -&gt; Swift.Double"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "337">
+               </Location>
+               <Location
+                  uuid = "9128E2CA-9115-4A8E-A122-03613006D0ED - 8679945c7d41915c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.EnergyMetrics.generate_energy_deltas() -&gt; Swift.Double"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "9128E2CA-9115-4A8E-A122-03613006D0ED - f75b1a3f25f71728"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "9128E2CA-9115-4A8E-A122-03613006D0ED - f75b1a3f25f71728"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53F4AEEE-593C-4F47-B02D-B697DBFFCC35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "generate_energy_deltas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "210FF963-EBA5-4476-A591-83C91A2653D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getAdStrings(completionHandler:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 957fd440522268ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "546">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "209">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 239fc965fdf96c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 9749928ef01e974d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "604">
+               </Location>
+               <Location
+                  uuid = "210FF963-EBA5-4476-A591-83C91A2653D0 - 1739fd7acbeea8a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD02644C-0A5E-4744-8108-F528102A82D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getAdStrings(completionHandler:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "AD02644C-0A5E-4744-8108-F528102A82D3 - 957fd440522268d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "335">
+               </Location>
+               <Location
+                  uuid = "AD02644C-0A5E-4744-8108-F528102A82D3 - 9749928ef01e976a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "393">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42B70CF0-4920-4A5C-9CC7-3ADAD713C258"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getAdStrings(completionHandler:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "42B70CF0-4920-4A5C-9CC7-3ADAD713C258 - 239fc965fdf96ba3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "42B70CF0-4920-4A5C-9CC7-3ADAD713C258 - 239fc965fdf96b80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1509">
+               </Location>
+               <Location
+                  uuid = "42B70CF0-4920-4A5C-9CC7-3ADAD713C258 - 1739fd7acbeeaf28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1555">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3F72AEA-372B-4546-8282-D7487F216C34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C3F72AEA-372B-4546-8282-D7487F216C34 - f75b1a3f25f71728"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "C3F72AEA-372B-4546-8282-D7487F216C34 - f75b1a3f25f71728"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72040261-6CE5-47C9-97F9-EB0C2C703908"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "72040261-6CE5-47C9-97F9-EB0C2C703908 - f75b1a3f25f71709"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "72040261-6CE5-47C9-97F9-EB0C2C703908 - f75b1a3f25f71709"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "407">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F02C242-C4CC-4F47-9EB9-C910C6F20060"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8F02C242-C4CC-4F47-9EB9-C910C6F20060 - f75b1a3f25f7176a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "849">
+               </Location>
+               <Location
+                  uuid = "8F02C242-C4CC-4F47-9EB9-C910C6F20060 - f75b1a3f25f7176a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "868">
+               </Location>
+               <Location
+                  uuid = "8F02C242-C4CC-4F47-9EB9-C910C6F20060 - f75b1a3f25f7174b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "868">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA03B286-F093-4DAD-B671-B5C34F4AA6BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FA03B286-F093-4DAD-B671-B5C34F4AA6BF - f75b1a3f25f7168d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "1470">
+               </Location>
+               <Location
+                  uuid = "FA03B286-F093-4DAD-B671-B5C34F4AA6BF - f75b1a3f25f7168d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "1575">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7CF5216-8F9F-4A4E-8B0A-D4B4C820D1C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F7CF5216-8F9F-4A4E-8B0A-D4B4C820D1C4 - f75b1a3f25f716ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "1507">
+               </Location>
+               <Location
+                  uuid = "F7CF5216-8F9F-4A4E-8B0A-D4B4C820D1C4 - f75b1a3f25f716ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "1675">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0203941-3F40-4CCB-B2E0-AB3BBC796164"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "B0203941-3F40-4CCB-B2E0-AB3BBC796164 - 8679945c7d4190cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.EnergyMetrics.generate_energy_deltas() -&gt; Swift.Double"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "B0203941-3F40-4CCB-B2E0-AB3BBC796164 - f75b1a3f25f71610"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "completionHandler() -&gt; ()"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74298279-F2D5-4BD0-B189-E59069839E4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "generate_energy_deltas()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74298279-F2D5-4BD0-B189-E59069839E4A - 8679945c7d4190e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.EnergyMetrics.generate_energy_deltas() -&gt; Swift.Double"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "74298279-F2D5-4BD0-B189-E59069839E4A - 8679945c7d4190e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "energy_metrics.EnergyMetrics.generate_energy_deltas() -&gt; Swift.Double"
+                  moduleName = "energy_metrics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdacosta/Desktop/MEng_Year/MISTI/uc3m_carbon/energy_metrics/energy_metrics/usage_metrics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7164D385-8566-42C0-94C7-75F2ED0B024E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "generate_energy_deltas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45E36AC7-489B-493B-9462-82B201EFBA65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "generate_energy_deltas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "019B4696-064F-4AFF-A379-A6EFE6859326"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "energy_metrics/usage_metrics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "completionHandler()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

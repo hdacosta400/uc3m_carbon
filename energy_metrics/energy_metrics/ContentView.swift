@@ -6,7 +6,7 @@ import SwiftUI
 
     
 struct ContentView: View {
-    var e: EnergyMetrics;
+    var e = EnergyMetrics()
     var body: some View {
         VStack {
             Text("CPU Power Consumption: \(e.eval_render_delta(renderHTML: exampleHTML)) W")
