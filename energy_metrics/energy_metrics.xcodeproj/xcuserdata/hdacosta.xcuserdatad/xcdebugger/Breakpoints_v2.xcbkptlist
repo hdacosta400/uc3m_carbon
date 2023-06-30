@@ -14,8 +14,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "getAdStrings(completionHandler:)"
             landmarkType = "9">
             <Locations>
@@ -167,8 +167,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "getAdStrings(completionHandler:)"
             landmarkType = "9">
             <Locations>
@@ -215,8 +215,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "postDeltas(deltas:)"
             landmarkType = "9">
             <Locations>
@@ -263,8 +263,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "postDeltas(deltas:)"
             landmarkType = "9">
             <Locations>
@@ -311,8 +311,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "postDeltas(deltas:)"
             landmarkType = "9">
             <Locations>
@@ -359,8 +359,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "postDeltas(deltas:)"
             landmarkType = "9">
             <Locations>
@@ -516,8 +516,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "getAdStrings(completionHandler:)"
             landmarkType = "9">
             <Locations>
@@ -662,54 +662,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AD02644C-0A5E-4744-8108-F528102A82D3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getAdStrings(completionHandler:)"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "AD02644C-0A5E-4744-8108-F528102A82D3 - 957fd440522268d8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "energy_metrics.getAdStrings() -&gt; ()"
-                  moduleName = "energy_metrics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "335">
-               </Location>
-               <Location
-                  uuid = "AD02644C-0A5E-4744-8108-F528102A82D3 - 9749928ef01e976a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "energy_metrics.getAdStrings(completionHandler: () -&gt; ()) -&gt; ()"
-                  moduleName = "energy_metrics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hdacosta/Desktop/swift_tutorial/About%20Me.swiftpm/App/Data.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "393">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "42B70CF0-4920-4A5C-9CC7-3ADAD713C258"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -717,8 +669,8 @@
             filePath = "../../../../swift_tutorial/About Me.swiftpm/App/Data.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "getAdStrings(completionHandler:)"
             landmarkType = "9">
             <Locations>

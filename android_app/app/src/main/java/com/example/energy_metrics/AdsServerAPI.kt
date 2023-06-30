@@ -10,9 +10,9 @@ import retrofit2.http.POST
 
 interface AdsServerAPI {
 
-    @GET("get") // endpoint URL for GET
+    @GET(".") // endpoint URL for GET
     fun getAds(): Call<List<Ad>>
 
-    @POST("post")
-    fun postEnergyDeltas(@Body energyDeltas: EnergyDeltas?): Call<EnergyDeltas?>?
+    @POST(".")
+    fun postEnergyDeltas(@Body energyDeltas: EnergyDeltas): Call<EnergyDeltas>
 }

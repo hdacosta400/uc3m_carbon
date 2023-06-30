@@ -16,6 +16,8 @@ class MainActivity : ComponentActivity() {
     var context = this;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var e = EnergyProfiler(context)
+        e.readEnergy();
         setContent {
             Energy_metricsTheme {
                 // A surface container using the 'background' color from the theme
@@ -23,7 +25,6 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-//                    Greeting("Android")
                     EnergyReading(context)
                 }
             }
@@ -35,24 +36,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Composable
 fun EnergyReading(context: MainActivity) {
-    var e = EnergyProfiler(context)
-    e.readEnergy()
-    Text("Energy delta is :" + e.energy_delta)
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Energy_metricsTheme {
-        Greeting("Android")
-    }
+    Text("Energy delta is :" + 100.0)
 }

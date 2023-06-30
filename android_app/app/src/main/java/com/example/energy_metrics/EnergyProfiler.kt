@@ -4,6 +4,7 @@ import android.content.Context
 import android.system.Os
 import android.system.OsConstants
 import android.os.SystemClock
+import android.util.Log
 import android.webkit.WebView
 import retrofit2.Call
 import retrofit2.Callback
@@ -30,7 +31,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
  **/
 
-const val BASE_URL = "/"
+const val BASE_URL = "http://192.168.1.160:8000/"
 class EnergyProfiler(context: MainActivity) {
     init {
         var context = context
@@ -43,28 +44,30 @@ class EnergyProfiler(context: MainActivity) {
     var webView = WebView(context)
 
 
-    fun getAdStrings(): List<String> {
+    fun getAdStrings() {
+        Log.d("STATE", "getting ad strings!")
         val retroFitBuilder = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl(BASE_URL) // base url for server
             .build()
             .create(AdsServerAPI::class.java)
-
+        Log.d("STATE", "built retrofit instance")
         val retrofitData = retroFitBuilder.getAds()
+        Log.d("STATE", "issued async request")
         var adHtmls = ArrayList<String>();
         retrofitData.enqueue(object : Callback<List<Ad>?> {
             override fun onResponse(call: Call<List<Ad>?>, response: Response<List<Ad>?>) {
                 val responseBody = response.body()!!
-                for (ad in responseBody) {
-                    adHtmls.add(ad.html)
-                }
+                System.out.println("successful!")
+                System.out.println(responseBody)
+                onGETSuccess(responseBody)
             }
             override fun onFailure(call: Call<List<Ad>?>, t: Throwable) {
+                System.out.println(call)
+                System.out.println(t.toString())
                 System.out.println("Error getting ads from API!")
             }
         })
-
-        return adHtmls;
     }
 
     fun postEnergyDeltas(energyDeltas: List<Double>) {
@@ -76,7 +79,7 @@ class EnergyProfiler(context: MainActivity) {
 
 
         val retrofitPost = retroFitBuilder.postEnergyDeltas(EnergyDeltas(energyDeltas));
-        retrofitPost!!.enqueue(object : Callback<EnergyDeltas?> {
+        retrofitPost.enqueue(object : Callback<EnergyDeltas?> {
             override fun onResponse(call: Call<EnergyDeltas?>, response: Response<EnergyDeltas?>) {
                 System.out.println("successfully POSTed deltas to ad server")
             }
@@ -92,11 +95,14 @@ class EnergyProfiler(context: MainActivity) {
         /**
          * GETs list of ads to render, calculates their energies, and POSTs them back to server
          */
+
+       getAdStrings();
+
+    }
+
+    fun onGETSuccess(adHtmls: List<Ad>) {
         val trials = 10
-
-        var adHtmls = getAdStrings();
         var energyDeltas = ArrayList<Double>()
-
         for (adHtml in adHtmls) {
             var relativeAvg = 0.0
             for (i in 1..trials+1) {
@@ -111,6 +117,7 @@ class EnergyProfiler(context: MainActivity) {
 
 
     fun renderAd(adHtml: String) {
+        //TODO: could be wrong, best to use this instead of heavier browser though
         webView.loadData(adHtml, "text/html", "UTF-8")
     }
 
