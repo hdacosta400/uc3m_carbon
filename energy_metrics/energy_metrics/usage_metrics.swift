@@ -80,7 +80,7 @@ class EnergyMetrics {
         postDeltas(campaign_infos: campaign_infos, deltas: deltas, baselines: baselines)
 //        }
         
-        return 0.0x
+        return 0.0
     }
 
 }

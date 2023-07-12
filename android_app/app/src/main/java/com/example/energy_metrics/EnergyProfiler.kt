@@ -6,12 +6,13 @@ import android.system.OsConstants
 import android.os.SystemClock
 import android.util.Log
 import android.webkit.WebView
+import okhttp3.OkHttpClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
+import kotlin.streams.toList
 
 
 /**
@@ -31,7 +32,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
  **/
 
-const val BASE_URL = "http://192.168.1.160:8000/"
+const val BASE_URL = "http://163.117.192.164:3000/ad_html/"
 class EnergyProfiler(context: MainActivity) {
     init {
         var context = context
@@ -46,9 +47,15 @@ class EnergyProfiler(context: MainActivity) {
 
     fun getAdStrings() {
         Log.d("STATE", "getting ad strings!")
+
+        val client =  OkHttpClient.Builder()
+            .addInterceptor(BasicAuthInterceptor("carbontag","secret"))
+            .build()
+
         val retroFitBuilder = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl(BASE_URL) // base url for server
+            .client(client)
             .build()
             .create(AdsServerAPI::class.java)
         Log.d("STATE", "built retrofit instance")
@@ -70,7 +77,9 @@ class EnergyProfiler(context: MainActivity) {
         })
     }
 
-    fun postEnergyDeltas(energyDeltas: List<Double>) {
+    fun postEnergyDeltas(campaignInfos: List<CampaignInfo>,
+                         baselineEnergyValues: List<Double>,
+                         deltaEnergyValues: List<Double>) {
         val retroFitBuilder = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl(BASE_URL) // base url for server
@@ -78,7 +87,7 @@ class EnergyProfiler(context: MainActivity) {
             .create(AdsServerAPI::class.java)
 
 
-        val retrofitPost = retroFitBuilder.postEnergyDeltas(EnergyDeltas(energyDeltas));
+        val retrofitPost = retroFitBuilder.postEnergyDeltas(EnergyDeltas(campaignInfos, baselineEnergyValues, deltaEnergyValues));
         retrofitPost.enqueue(object : Callback<EnergyDeltas?> {
             override fun onResponse(call: Call<EnergyDeltas?>, response: Response<EnergyDeltas?>) {
                 System.out.println("successfully POSTed deltas to ad server")
@@ -100,19 +109,29 @@ class EnergyProfiler(context: MainActivity) {
 
     }
 
-    fun onGETSuccess(adHtmls: List<Ad>) {
+    fun onGETSuccess(ads: List<Ad>) {
         val trials = 10
-        var energyDeltas = ArrayList<Double>()
-        for (adHtml in adHtmls) {
-            var relativeAvg = 0.0
+        var baselineEnergyValues = ArrayList<Double>()
+        var deltaEnergyValues = ArrayList<Double>()
+        for (ad in ads) {
+            var baselineAvg = 0.0
+            var deltaAvg = 0.0
             for (i in 1..trials+1) {
-                relativeAvg += calcRelativeAvgUsagePercentage("")
+                var  res: Pair<Double, Double> = calcRelativeAvgUsagePercentage(ad.ad_html!!)
+                baselineAvg += res.first
+                deltaAvg += res.second
             }
-            energy_delta = relativeAvg / trials * WATTAGE_CONSTANT
-            energyDeltas.add(energy_delta)
+
+            baselineAvg = baselineAvg/ trials * WATTAGE_CONSTANT
+            deltaAvg = deltaAvg / trials * WATTAGE_CONSTANT
+
+            baselineEnergyValues.add(baselineAvg)
+            deltaEnergyValues.add(deltaAvg)
         }
 
-        postEnergyDeltas(energyDeltas)
+        val campaignInfos = ads.stream().map(Ad::campaign_info).toList()
+        // need campaign info list, baseline list, and energyDeltas
+        postEnergyDeltas(campaignInfos, baselineEnergyValues, deltaEnergyValues)
     }
 
 
@@ -121,7 +140,9 @@ class EnergyProfiler(context: MainActivity) {
         webView.loadData(adHtml, "text/html", "UTF-8")
     }
 
-    fun calcRelativeAvgUsagePercentage(adHtml: String): Double {
+
+
+    fun calcRelativeAvgUsagePercentage(adHtml: String): Pair<Double, Double> {
 
 
         val startTime1 = System.currentTimeMillis() / 1000.0
@@ -145,6 +166,7 @@ class EnergyProfiler(context: MainActivity) {
         var relAvgUsagePercent = 100 * (cpuTimeDeltaSec / processTimeDeltaSec)
         relAvgUsagePercent /= numCores
 
-        return relAvgUsagePercent
+        var baselineUsagePercent = 100 * (cpuTimeSec1 / processTimeSec1)
+        return Pair(baselineUsagePercent, relAvgUsagePercent)
     }
 }
