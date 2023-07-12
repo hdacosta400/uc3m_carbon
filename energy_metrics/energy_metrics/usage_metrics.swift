@@ -16,6 +16,8 @@ class EnergyMetrics {
     
     
     var webView = WKWebView()
+    var campaign_infos: [CampaignInfo] = []
+    var baselines: [Double] = []
     var deltas: [Double] = []
     
     
@@ -45,7 +47,6 @@ class EnergyMetrics {
 //                print("Elapsed time: \(-start.timeIntervalSinceNow) seconds")
 //                print("Approximate CPU Utilization: \(cpu_utilization) %")
                 avg_utilization += cpu_utilization
-                renderURL(htmlString: blankHTML)
             }
         }
         
@@ -62,22 +63,24 @@ class EnergyMetrics {
     
     func generate_energy_deltas() -> Double {
         print("getting in here")
-        
-        func completionHandler() -> Void {
-            for ad in renderedHtmls {
-                print("ad:\(ad)")
-                let energy_delta =
-                (eval(html: ad) - eval(html: blankHTML)) * ENERGY_CONSUMPTION
-                print("edelt:\(energy_delta)")
-                deltas.append(energy_delta)
-            }
-            postDeltas(deltas: deltas)
+//            getAdStrings(completionHandler: completionHandler);
+
+        getAdStrings()
+//        func completionHandler() -> Void {
+        for ad in adsToRender {
+            let campaign_info = ad.campaign_info
+            print("campaign_info:\(campaign_info)")
+            let energy_baseline = eval(html: blankHTML) * ENERGY_CONSUMPTION
+            let energy_delta = (eval(html: ad.ad_html) * ENERGY_CONSUMPTION) - energy_baseline
+            print("baseline, edelt:\(energy_baseline), \(energy_delta)")
+            campaign_infos.append(campaign_info)
+            deltas.append(energy_delta)
+            baselines.append(energy_baseline)
         }
+        postDeltas(campaign_infos: campaign_infos, deltas: deltas, baselines: baselines)
+//        }
         
-        getAdStrings(completionHandler: completionHandler);
-        return 0.0
-
-
+        return 0.0x
     }
 
 }
